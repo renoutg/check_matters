@@ -2,8 +2,8 @@
 Chat bot mattermost to talk to Check MK  
 
 # Components used
-https://github.com/attzonko/mmpy_bot
-https://mathias-kettner.com/
+https://github.com/attzonko/mmpy_bot  
+https://mathias-kettner.com/  
 
 # Usage
 Create an user in Mattermost and add this user to channels you want  
