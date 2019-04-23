@@ -22,7 +22,7 @@ def pretty_table_content(data):
         row[i] = '&nbsp;'
       if row[i] == "CRIT":
         row[i] = ':fire: Critical'
-      if row[i] == "WARNING":
+      if row[i] == "WARN":
         row[i] = ':warning: Warning'
   return data
 
