@@ -24,6 +24,8 @@ def pretty_table_content(data):
         row[i] = ':fire: Critical'
       if row[i] == "WARN":
         row[i] = ':warning: Warning'
+      if row[i] == "UNKN":
+        row[i] = ':grey_question: Unknown'
   return data
 
 def create_md_table(data, name):
